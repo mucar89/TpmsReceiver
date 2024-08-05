@@ -20,7 +20,7 @@ HopeRF sells ready-to-use modules, RFM219BW. You just need RFM219BW, Arduino Pro
 - FCSB is the Chip Select pin of the FIFO (data) registers. It can be connected to any pin. **(Default: 4)**
 - SCLK is the clock pin, it can be connected to any pin. **(Default: 5)**
 - SDIO is data in and out pin, it can be connected to any pin. **(Default: 3)**
-- GPIO2 is configured as a interrupt pin. So it must be connected to one of the interrupt pins: 2 or 3. **(Default: 2)** 
+- GPIO2 is configured as an interrupt pin. So it must be connected to one of the interrupt pins: 2 or 3. **(Default: 2)** 
 - GPIO1 and GPIO3 is not used.
 
 _Note: CMT2219B uses SPI for communication. But single pin (SDIO) is used for both MOSI and MISO. Standard SPI pins (11-13) and SPI library is not used because of this._
@@ -35,4 +35,4 @@ I used this project to parse raw data: https://www.hackster.io/jsmsolns/arduino-
 
 I used a random forum post for the 3-wire SPI (single pin for MISO and MOSI), but I can't find it again.
 
-This project cannot be done without them.
+This project couldn't have been finished without them.
