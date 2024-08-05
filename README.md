@@ -8,7 +8,7 @@ This Arduino project receives values from aftermarket TPMS sensors that used CMT
 This is the picture of the RF receiver IC, CMT2219B. CMT2219B has "219B" marker on the first line. Following lines shows manufacturing year, week and batch number. So 2nd and 3rd lines might be different. <br />
 <img src="images/Circuit.png" alt="Circuit" width="400" />
 
-HopeRF sells ready-to-use modules, RFM219BW. You just need RFM219BW, Arduino Pro Mini **(3.3V)** and antenna to run this project.<br />
+HopeRF sells ready-to-use module, RFM219BW. You just need RFM219BW, Arduino Pro Mini **(3.3V)** and antenna to run this project.<br />
 <img src="images/RFM219BW.png" alt="RFM219BW" width="200" /><br />
 
 ## RFM219BW Pins
